@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="data/library/core.jar"/>
+	<classpathentry kind="lib" path="data/library/gluegen-rt-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="data/library/jogl-all-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="data/library/jogl-all.jar"/>
+	<classpathentry kind="lib" path="data/PeasyCam.jar"/>
+	<classpathentry kind="lib" path="data/library/gluegen-rt.jar" sourcepath="/Users/GA/.m2/repository/org/jogamp/gluegen/gluegen-rt/2.0.2/gluegen-rt-2.0.2-sources.jar"/>
+	<classpathentry kind="lib" path="data/library/MovieMaker.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
