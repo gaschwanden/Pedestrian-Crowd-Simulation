@@ -184,8 +184,8 @@ public class UrbanModel extends PApplet{
 		buttons.add(new Button("load Streets",this, width-300, (70+80*sliders.size())+40*buttons.size() ));
 		buttons.add(new Button("load SoftObstacles",this, width-300, (70+80*sliders.size())+40*buttons.size() ));
 		pedestrianSlider = new sliderPedestrian(width-200, height*3/4, 200,200,20,this,10,PI);
-		imageObject = p.loadImage("/Users/gaschwanden/Desktop/Projects/2015_MelbUni_Pedestrians/background_II.jpg");
-		pollutionMap = p.loadImage("/Users/gaschwanden/Desktop/Projects/2015_MelbUni_Pedestrians/background_SUN.jpg");
+		imageObject = p.loadImage("/Users/gaschwanden/Documents/workspace/UrbanModel_Playground/data/background_II.jpg");
+		pollutionMap = p.loadImage("/Users/gaschwanden/Documents/workspace/UrbanModel_Playground/data/background_SUN.jpg");
 
 
 		for (int i = 0; i<statisticBinSize;i++) {

@@ -19,7 +19,7 @@ public class Button {
 		y = _y;
 		name = _name;
 		p= _p;
-		mono = p.loadFont("/Users/gaschwanden/Documents/workspace/CH.ETH.FCL.UrbanModel_Playground/data/HelveticaNeue-25.vlw");
+		mono = p.loadFont("/Users/gaschwanden/Documents/workspace/UrbanModel_Playground/data/HelveticaNeue-25.vlw");
 	}
 	
 	public void drawme() {

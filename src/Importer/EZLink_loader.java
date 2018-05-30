@@ -41,7 +41,7 @@ public class EZLink_loader extends PApplet{
 	}
 
 	public void loadTrips() {
-		data = loadStrings("/Users/GA/Documents/workspace/CH.ETH.FCL.UrbanModel_Playground/data/ez_link_trips.csv");
+		data = loadStrings("/Users/GA/Documents/workspace/UrbanModel_Playground/data/ez_link_trips.csv");
 
 		if(data == null) {
 			System.out.println("data is null");

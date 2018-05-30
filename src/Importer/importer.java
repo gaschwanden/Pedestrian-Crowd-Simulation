@@ -91,7 +91,7 @@ public class importer extends PApplet{
 		// defining where the file is
 		definedFunctions = new ArrayList<String>();
 		//		importDXF(setBounds);
-		JFileChooser jf = new JFileChooser(new File("/Users/gaschwanden/Desktop/Projects/2015_MelbUni_Pedestrians"));
+		JFileChooser jf = new JFileChooser(new File("/Users/gaschwanden/Desktop/Projects/UrbanModel_Playground"));
 		jf.showOpenDialog(this);
 		File file = jf.getSelectedFile();
 //		File file = new File("Users/GA/Desktop/Akademia/PhD/PhD_Projects/2013_Air/Generic_Example/Geometrical_setup/Obstacles.dxf");
